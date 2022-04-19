@@ -5,12 +5,12 @@ import os
 sourceFileDir = os.path.dirname(os.path.abspath(__file__))
 
 # join the filepath and the filename
-hihat = os.path.join(sourceFileDir, 'hihat_closed.mp3')
-hihatopen = os.path.join(sourceFileDir, 'hihat_open.mp3')
-snare = os.path.join(sourceFileDir, 'snare.mp3')
-kick = os.path.join(sourceFileDir, 'kick.mp3')
-tomsml = os.path.join(sourceFileDir, 'tom_small.mp3')
-tommed = os.path.join(sourceFileDir, 'tom_medium.mp3')
+hihat = os.path.join(sourceFileDir, 'sounds', 'hihat_closed.mp3')
+hihatopen = os.path.join(sourceFileDir, 'sounds', 'hihat_open.mp3')
+snare = os.path.join(sourceFileDir, 'sounds', 'snare.mp3')
+kick = os.path.join(sourceFileDir, 'sounds', 'kick.mp3')
+tomsml = os.path.join(sourceFileDir, 'sounds', 'tom_small.mp3')
+tommed = os.path.join(sourceFileDir, 'sounds', 'tom_medium.mp3')
 
 EVENTS = []
 
